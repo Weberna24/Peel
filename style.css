@@ -478,7 +478,7 @@ body.active{
   }
 
   .menu-section{
-    padding: 0rem 2rem;
+    padding: 0rem 4rem;
     padding-bottom: 2rem;
     background-color: #e27228;
   }
@@ -1369,6 +1369,10 @@ body.active{
 }
 
 @media screen and (max-width: 900px) {
+
+      .menu-section{
+        padding: 0rem 2rem;
+      }
 
   .menu-collection{
     padding-left: 1rem;
