@@ -776,6 +776,7 @@ body.active{
     background-color: #e27228;
     padding: 0rem 3rem;
     padding-bottom: 2rem;
+    padding-top: 2rem;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -789,6 +790,7 @@ body.active{
 
   .footer a{
     color: #000;
+    text-align center;
     font-style: italic;
     text-decoration: none;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -1681,7 +1683,10 @@ body.active{
     }
 
     .footer-info{
+      width:100%;
       display: flex;
+      align-items: center;
+      justify-content: center;
       flex-direction: column;
       padding-bottom: 2rem;
     }
